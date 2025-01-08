@@ -29,7 +29,7 @@ let generateProductCard = (recipyCard) => {
     output.innerHTML = '';
     recipyCard.forEach((recipy) => {
         const cardHtml = `
-        <div class="card" style="width: 22rem;">
+        <div class="card" style="width: 18rem;">
         <img src="${recipy.image}" class="card-img-top" alt="Product Image">
         <div class="card-body">
             <h3 class="card-title">${recipy.name}</h3>
